@@ -1,4 +1,0 @@
-Producto A;1
-Producto B;2
-Producto C;3
-Producto D;2
