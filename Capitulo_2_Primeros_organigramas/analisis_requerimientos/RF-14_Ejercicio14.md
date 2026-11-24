@@ -17,16 +17,20 @@ Iniciar suma en cero y acumular i * 5 desde i = 1 hasta N.
 La suma de los N primeros múltiplos de 5.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Solicitar la cantidad N de múltiplos que se van a sumar.
+2. Calcular los primeros N múltiplos positivos de 5.
+3. Acumular los múltiplos calculados en una variable suma.
+4. Mostrar la suma total.
 
 ## Requerimientos no funcionales
-- Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- El programa debe ejecutarse en consola con Java.
+- Los mensajes de entrada y el resultado deben ser claros.
+- El cálculo debe realizarse con un ciclo y una variable acumuladora.
+
+## Requerimientos de dominio
+- Los múltiplos considerados son 5, 10, 15 y así sucesivamente.
+- N representa la cantidad de múltiplos, no el valor máximo.
+- Si N es cero o negativo, no se deben sumar múltiplos; la suma inicial es cero.
 
 ## Algoritmo
 1. Inicio

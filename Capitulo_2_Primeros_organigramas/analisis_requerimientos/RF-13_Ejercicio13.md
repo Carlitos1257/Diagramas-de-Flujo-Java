@@ -17,16 +17,20 @@ Iniciar un contador en 1 y mostrar el contador multiplicado por 3 hasta llegar a
 Los primeros 100 múltiplos de 3.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Generar y mostrar exactamente los primeros 100 múltiplos positivos de 3.
+2. Usar un contador que avance desde 1 hasta 100.
+3. Calcular cada múltiplo multiplicando el contador por 3.
+4. Mostrar cada resultado en la consola, en orden ascendente.
 
 ## Requerimientos no funcionales
-- Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- El programa debe ejecutarse en consola con Java.
+- La salida debe ser legible y mostrar un resultado por línea.
+- El proceso debe finalizar después de mostrar los 100 valores.
+
+## Requerimientos de dominio
+- Un múltiplo de 3 se obtiene mediante 3 × n.
+- La secuencia solicitada comienza en 3 y termina en 300.
+- Se deben mostrar 100 valores; no se solicita entrada del usuario.
 
 ## Algoritmo
 1. Inicio

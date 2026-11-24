@@ -17,16 +17,20 @@ Comprobar si el residuo de dividir el número entre 5 es igual a cero.
 Mensaje que indica si es o no múltiplo de 5.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Solicitar un número entero.
+2. Calcular el residuo de dividir el número entre 5.
+3. Determinar si el residuo es igual a cero.
+4. Informar si el número es múltiplo de 5.
 
 ## Requerimientos no funcionales
-- Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- El programa debe ejecutarse en consola con Java.
+- Debe aceptar números enteros positivos, negativos y cero.
+- El mensaje final debe indicar claramente la clasificación.
+
+## Requerimientos de dominio
+- Un número entero es múltiplo de 5 cuando su residuo al dividirlo entre 5 es cero.
+- El cero también es múltiplo de 5.
+- La regla se aplica tanto a enteros positivos como negativos.
 
 ## Algoritmo
 1. Inicio

@@ -17,16 +17,20 @@ Guardar cada número en una posición del arreglo y recorrerlo para mostrar sus 
 Los diez elementos almacenados.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Crear un arreglo de diez posiciones enteras.
+2. Solicitar diez valores al usuario.
+3. Guardar cada valor en la posición correspondiente del arreglo.
+4. Recorrer el arreglo y mostrar los diez elementos almacenados.
 
 ## Requerimientos no funcionales
-- Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- El programa debe ejecutarse en consola con Java.
+- Debe utilizar un arreglo de tamaño fijo de diez elementos.
+- Los datos deben mostrarse en el mismo orden en que fueron ingresados.
+
+## Requerimientos de dominio
+- Los índices válidos del arreglo son de 0 a 9.
+- El arreglo almacena exactamente diez números enteros.
+- Cada posición contiene un único elemento.
 
 ## Algoritmo
 1. Inicio

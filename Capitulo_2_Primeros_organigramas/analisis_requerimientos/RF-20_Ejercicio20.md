@@ -17,16 +17,20 @@ Calcular cantidad * porcentaje / 100.
 El valor correspondiente al porcentaje.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Solicitar una cantidad base.
+2. Solicitar el porcentaje que se desea calcular.
+3. Calcular el valor porcentual usando cantidad × porcentaje / 100.
+4. Mostrar el resultado.
 
 ## Requerimientos no funcionales
-- Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- El programa debe ejecutarse en consola con Java.
+- Debe permitir valores decimales para la cantidad y el porcentaje.
+- El resultado debe mostrarse con un mensaje comprensible.
+
+## Requerimientos de dominio
+- El porcentaje se expresa como un número sobre 100; por ejemplo, 15 representa 15 %.
+- La fórmula aplicada es (cantidad × porcentaje) / 100.
+- No se debe confundir el valor porcentual calculado con la cantidad total más ese valor.
 
 ## Algoritmo
 1. Inicio

@@ -17,16 +17,21 @@ Clasificar cada número según sea mayor, menor o igual a cero y aumentar el con
 Cantidad de positivos, negativos y ceros.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Solicitar la cantidad N de números que se procesarán.
+2. Leer cada uno de los N números enteros.
+3. Contar por separado los valores positivos, negativos y ceros.
+4. Mostrar los tres contadores al finalizar.
 
 ## Requerimientos no funcionales
-- Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- El programa debe ejecutarse en consola con Java.
+- Los contadores deben iniciar en cero y actualizarse una sola vez por cada dato leído.
+- Los resultados deben presentarse separados por categoría.
+
+## Requerimientos de dominio
+- Un número positivo es mayor que cero.
+- Un número negativo es menor que cero.
+- El cero no es positivo ni negativo y debe contarse en una categoría independiente.
+- N representa la cantidad de valores a procesar.
 
 ## Algoritmo
 1. Inicio

@@ -17,16 +17,20 @@ Validar que N no sea negativo ni mayor que 20. Multiplicar los enteros desde 1 h
 El factorial de N o un mensaje de validación.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Leer un número entero N.
+2. Validar que N esté entre 0 y 20 inclusive.
+3. Calcular el factorial multiplicando los enteros desde 1 hasta N.
+4. Mostrar el factorial o un mensaje cuando el valor esté fuera del rango permitido.
 
 ## Requerimientos no funcionales
-- Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- El programa debe ejecutarse en consola con Java.
+- El resultado debe mostrarse claramente e identificar el número procesado.
+- La solución debe evitar desbordamientos del tipo numérico utilizado.
+
+## Requerimientos de dominio
+- El factorial se define como N! = 1 × 2 × ... × N.
+- Por definición, 0! = 1.
+- El programa limita N al intervalo de 0 a 20 para usar el tipo long sin desbordamiento.
 
 ## Algoritmo
 1. Inicio
