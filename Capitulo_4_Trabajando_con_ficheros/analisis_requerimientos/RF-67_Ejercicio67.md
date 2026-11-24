@@ -17,16 +17,21 @@ Guardar cada par clave-dato en indexados.txt; la clave representa el índice de 
 Archivo indexados.txt con claves y datos.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Solicitar cuántos registros se van a almacenar.
+2. Crear o abrir el archivo indexados.txt.
+3. Solicitar una clave y un dato para cada registro.
+4. Guardar cada pareja clave-dato en el archivo.
+5. Cerrar el archivo e informar el resultado de la operación.
 
 ## Requerimientos no funcionales
 - Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- Guardar cada registro en una línea y mantener el formato clave;dato.
+- Manejar errores de lectura y escritura mediante excepciones.
+
+## Requerimientos de dominio
+- La clave identifica cada registro y se conserva junto con su dato.
+- En esta implementación académica, la organización indexada se representa guardando la clave en el archivo; no se implementa un índice físico separado.
+- La cantidad de registros la determina el usuario.
 
 ## Algoritmo
 1. Inicio

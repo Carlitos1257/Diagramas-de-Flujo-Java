@@ -17,16 +17,22 @@ Tomar el primer elemento como mayor inicial y comparar los demás para actualiza
 El mayor elemento de la tabla.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Solicitar la cantidad N de elementos de la tabla.
+2. Verificar que N sea mayor que cero.
+3. Leer y almacenar los N números enteros.
+4. Tomar el primer elemento como valor mayor inicial.
+5. Comparar los demás elementos y actualizar el mayor cuando corresponda.
+6. Mostrar el mayor valor encontrado.
 
 ## Requerimientos no funcionales
 - Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- Utilizar un arreglo para almacenar los valores.
+- Evitar acceder a una posición del arreglo si N no es válido.
+
+## Requerimientos de dominio
+- La tabla debe contener al menos un elemento.
+- El primer valor leído se utiliza como referencia inicial; no se debe iniciar el mayor en cero porque todos los datos podrían ser negativos.
+- El resultado es el máximo de los N valores ingresados.
 
 ## Algoritmo
 1. Inicio

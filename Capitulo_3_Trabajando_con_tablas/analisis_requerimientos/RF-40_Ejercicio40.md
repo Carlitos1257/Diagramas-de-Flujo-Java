@@ -17,16 +17,20 @@ Guardar cada elemento y acumular su valor en una variable suma.
 La suma de los diez elementos.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Crear un arreglo para almacenar diez números enteros.
+2. Solicitar y guardar los diez valores en el arreglo.
+3. Sumar cada valor ingresado en una variable acumuladora.
+4. Mostrar la suma total de los diez elementos.
 
 ## Requerimientos no funcionales
 - Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- Utilizar un arreglo de diez posiciones y una variable acumuladora.
+- Solicitar los datos en orden y mostrar el total al terminar.
+
+## Requerimientos de dominio
+- Se procesan exactamente diez elementos.
+- Los elementos son números enteros.
+- La suma se inicializa en cero antes de comenzar la lectura.
 
 ## Algoritmo
 1. Inicio

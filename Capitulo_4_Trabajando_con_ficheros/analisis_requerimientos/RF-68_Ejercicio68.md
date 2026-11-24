@@ -17,16 +17,21 @@ Solicitar un dato para cada clave y escribir la clave y el dato en directo.txt.
 Archivo directo.txt con 200 registros identificados por clave.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Crear o abrir el archivo directo.txt.
+2. Recorrer las claves consecutivas desde 1 hasta 200.
+3. Solicitar un dato asociado a cada clave.
+4. Guardar cada pareja clave-dato en el archivo.
+5. Cerrar el archivo e informar que se guardaron los registros.
 
 ## Requerimientos no funcionales
 - Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- Escribir los registros con una clave y un dato por línea.
+- Controlar los errores que puedan presentarse al escribir el archivo.
+
+## Requerimientos de dominio
+- Se generan exactamente 200 registros.
+- Cada registro tiene una clave única entre 1 y 200.
+- El programa guarda los registros secuencialmente en texto con el formato clave;dato; esta representación no equivale a acceso físico directo real.
 
 ## Algoritmo
 1. Inicio

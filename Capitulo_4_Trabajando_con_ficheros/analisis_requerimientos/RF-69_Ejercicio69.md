@@ -17,16 +17,22 @@ Leer cada línea, separar los campos y contar los empleados nacidos en 1940 y 19
 Cantidad de empleados nacidos en 1940 y en 1941.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Abrir y leer el archivo empleados.txt.
+2. Separar los campos de cada registro usando el punto y coma.
+3. Obtener el año de nacimiento de cada empleado.
+4. Contar los registros cuyo año sea 1940 y los cuyo año sea 1941.
+5. Mostrar ambos contadores al terminar la lectura.
+6. Informar si el archivo no existe o contiene datos que no pueden convertirse.
 
 ## Requerimientos no funcionales
 - Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- Leer el archivo línea por línea sin cargarlo completo en memoria.
+- Validar que cada línea contenga los campos requeridos y manejar errores de lectura o conversión.
+
+## Requerimientos de dominio
+- El archivo se denomina empleados.txt.
+- Cada línea debe tener el formato nombre;año.
+- Se cuentan por separado los años 1940 y 1941; los demás años no incrementan esos contadores.
 
 ## Algoritmo
 1. Inicio

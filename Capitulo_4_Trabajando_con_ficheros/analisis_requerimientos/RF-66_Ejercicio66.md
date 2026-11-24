@@ -17,16 +17,22 @@ Solicitar cada dato y escribirlo secuencialmente en registros.txt junto con su n
 Archivo registros.txt con 1000 registros.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Crear o abrir el archivo registros.txt en modo escritura.
+2. Solicitar un dato para cada uno de los 1000 registros.
+3. Escribir cada registro en una línea, acompañado de su número consecutivo.
+4. Cerrar el archivo al terminar la escritura.
+5. Informar si el archivo fue creado correctamente o si ocurrió un error.
 
 ## Requerimientos no funcionales
 - Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- Escribir los registros en orden secuencial.
+- Utilizar un bloque de manejo de excepciones para los errores de entrada/salida.
+- Cerrar el archivo al finalizar, incluso si ocurre un error.
+
+## Requerimientos de dominio
+- Se deben escribir exactamente 1000 registros.
+- El número de registro identifica la posición secuencial de cada dato.
+- El archivo de salida se denomina registros.txt y cada registro se escribe en una línea.
 
 ## Algoritmo
 1. Inicio

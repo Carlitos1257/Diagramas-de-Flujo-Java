@@ -17,16 +17,21 @@ Comparar cada valor con 15 y aumentar el contador cuando sea mayor.
 Cantidad de valores mayores que 15.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Solicitar la cantidad N de valores que se van a revisar.
+2. Leer los N números enteros.
+3. Comparar cada número con 15.
+4. Incrementar un contador únicamente cuando el número sea mayor que 15.
+5. Mostrar la cantidad de valores que cumplen la condición.
 
 ## Requerimientos no funcionales
 - Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- Procesar cada valor una sola vez.
+- Mostrar un contador final claro.
+
+## Requerimientos de dominio
+- Solo se cuentan valores estrictamente mayores que 15.
+- El valor 15 no se incluye en el conteo.
+- N determina la cantidad de números que se leerán.
 
 ## Algoritmo
 1. Inicio

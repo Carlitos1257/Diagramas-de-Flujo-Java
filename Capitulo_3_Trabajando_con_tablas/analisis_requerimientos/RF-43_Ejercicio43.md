@@ -17,16 +17,21 @@ Almacenar positivos y negativos en arreglos separados; contar los ceros.
 Listas de positivos y negativos y cantidad de ceros.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Solicitar la cantidad N de números enteros.
+2. Leer los N valores.
+3. Guardar los valores positivos en un arreglo y los negativos en otro.
+4. Contar por separado los valores iguales a cero.
+5. Mostrar los valores positivos, los negativos y el total de ceros.
 
 ## Requerimientos no funcionales
 - Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- Conservar el orden de aparición de los valores dentro de cada grupo.
+- Mostrar cada grupo de forma diferenciada.
+
+## Requerimientos de dominio
+- Los positivos son mayores que cero y los negativos menores que cero.
+- El cero no se almacena en ninguno de los dos arreglos; se cuenta aparte.
+- Cada valor leído debe clasificarse una sola vez.
 
 ## Algoritmo
 1. Inicio
