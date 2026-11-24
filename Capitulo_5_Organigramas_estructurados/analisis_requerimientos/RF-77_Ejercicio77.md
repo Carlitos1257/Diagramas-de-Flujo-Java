@@ -17,16 +17,20 @@ Recorrer del 1 al 10 y acumular i * 2.
 Suma de los diez primeros números pares.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Inicializar una variable acumuladora en cero.
+2. Generar los diez primeros números pares positivos.
+3. Sumar cada número par en la variable acumuladora.
+4. Mostrar el resultado de la suma.
 
 ## Requerimientos no funcionales
 - Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- Utilizar un ciclo que procese exactamente diez números.
+- Mostrar el resultado final mediante un mensaje claro.
+
+## Requerimientos de dominio
+- Los diez primeros números pares positivos son 2, 4, 6, ..., 20.
+- El cero no se incluye en la secuencia solicitada.
+- La suma esperada de referencia es 110.
 
 ## Algoritmo
 1. Inicio

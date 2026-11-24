@@ -17,16 +17,22 @@ Para cada valor, validar el rango y calcular su factorial con un ciclo multiplic
 Factorial de cada valor válido o mensaje de rango.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Solicitar la cantidad de números que se van a procesar.
+2. Leer cada número individualmente.
+3. Validar que cada número esté entre 0 y 20 inclusive.
+4. Calcular el factorial de cada número válido.
+5. Mostrar el factorial o un mensaje cuando el valor esté fuera del rango.
 
 ## Requerimientos no funcionales
 - Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- Utilizar ciclos para procesar la cantidad solicitada y calcular cada factorial.
+- Mostrar el resultado correspondiente a cada número ingresado.
+
+## Requerimientos de dominio
+- El factorial de N es el producto de los enteros desde 1 hasta N.
+- Por definición, 0! = 1.
+- Se limita la entrada al rango de 0 a 20 para evitar desbordamiento del tipo long.
+- Cada número se valida de manera independiente.
 
 ## Algoritmo
 1. Inicio

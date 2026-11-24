@@ -17,16 +17,19 @@ Comparar el número con cero para clasificarlo como positivo, negativo o cero.
 Mensaje de clasificación del número.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Solicitar un número al usuario.
+2. Comparar el número con cero.
+3. Mostrar si el número es positivo, negativo o igual a cero.
 
 ## Requerimientos no funcionales
 - Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- Aceptar números enteros.
+- Presentar una única clasificación para el valor ingresado.
+
+## Requerimientos de dominio
+- Un número mayor que cero es positivo.
+- Un número menor que cero es negativo.
+- El cero constituye un caso independiente; no es positivo ni negativo.
 
 ## Algoritmo
 1. Inicio

@@ -17,16 +17,23 @@ Leer cada línea y aumentar el contador de la categoría indicada; contar regist
 Cantidad de registros de categorías 1, 2 y 3 y registros inválidos.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Abrir y leer el archivo categorias.txt.
+2. Separar los campos de cada registro.
+3. Leer el valor del segundo campo como categoría.
+4. Incrementar el contador correspondiente para las categorías 1, 2 o 3.
+5. Contar los registros incompletos o con categorías diferentes de 1, 2 y 3 como inválidos.
+6. Mostrar los contadores de las tres categorías y los registros inválidos.
 
 ## Requerimientos no funcionales
 - Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- Procesar el archivo línea por línea.
+- Controlar errores de lectura y registros que no cumplan el formato esperado.
+
+## Requerimientos de dominio
+- El archivo se denomina categorias.txt.
+- El segundo campo de cada línea contiene la categoría.
+- Las categorías válidas son 1, 2 y 3.
+- Un registro sin el segundo campo o con una categoría distinta se considera inválido.
 
 ## Algoritmo
 1. Inicio

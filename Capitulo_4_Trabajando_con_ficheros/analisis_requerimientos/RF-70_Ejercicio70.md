@@ -17,16 +17,23 @@ Leer cada registro y contar por separado empleados menores de 18 y empleados de 
 Cantidad de menores de 18 años y cantidad de mujeres.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Abrir y leer el archivo empleados.txt.
+2. Separar los campos nombre, edad y sexo de cada registro.
+3. Contar los empleados cuya edad sea menor de 18 años.
+4. Contar por separado los registros cuyo sexo esté identificado como F.
+5. Mostrar los dos contadores al finalizar.
+6. Informar errores si el archivo no existe o los datos numéricos no son válidos.
 
 ## Requerimientos no funcionales
 - Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- Leer los registros línea por línea.
+- Validar que cada registro contenga los campos necesarios y manejar errores de lectura o conversión.
+
+## Requerimientos de dominio
+- El archivo se denomina empleados.txt.
+- Cada línea debe tener el formato nombre;edad;M/F.
+- Se considera menor de edad a quien tenga menos de 18 años; una edad de 18 no se cuenta.
+- El conteo de mujeres se realiza cuando el campo sexo contiene F, sin depender de mayúsculas o minúsculas.
 
 ## Algoritmo
 1. Inicio

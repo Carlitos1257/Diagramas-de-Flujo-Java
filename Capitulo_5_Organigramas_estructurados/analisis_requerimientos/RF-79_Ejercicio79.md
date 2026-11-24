@@ -17,16 +17,19 @@ Recorrer desde 1 hasta N y mostrar i * 3.
 Los N primeros múltiplos de 3.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Solicitar la cantidad N de múltiplos que se desean mostrar.
+2. Generar los primeros N múltiplos positivos de 3.
+3. Mostrar cada múltiplo en orden ascendente.
 
 ## Requerimientos no funcionales
 - Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- Utilizar un ciclo controlado por la cantidad solicitada.
+- Mostrar los resultados de forma legible.
+
+## Requerimientos de dominio
+- Los múltiplos se generan como 3 × i, comenzando con i = 1.
+- N representa la cantidad de resultados, no el límite numérico.
+- Si N es cero o negativo, no se muestran múltiplos.
 
 ## Algoritmo
 1. Inicio

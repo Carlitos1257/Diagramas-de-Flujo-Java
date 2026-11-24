@@ -17,16 +17,21 @@ Usar tres ciclos anidados para recorrer horas de 0 a 23, minutos de 0 a 59 y seg
 Las horas en formato HH:MM:SS.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Generar las horas desde 00 hasta 23.
+2. Para cada hora, generar los minutos desde 00 hasta 59.
+3. Para cada minuto, generar los segundos desde 00 hasta 59.
+4. Mostrar cada combinación en formato HH:MM:SS.
 
 ## Requerimientos no funcionales
 - Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- Utilizar ciclos anidados para recorrer las unidades de tiempo.
+- Mostrar siempre dos dígitos para cada componente de la hora.
+
+## Requerimientos de dominio
+- El reloj utiliza formato de 24 horas.
+- Las horas válidas van de 0 a 23.
+- Los minutos y segundos válidos van de 0 a 59.
+- El recorrido diario contiene 86 400 combinaciones de hora, minuto y segundo.
 
 ## Algoritmo
 1. Inicio

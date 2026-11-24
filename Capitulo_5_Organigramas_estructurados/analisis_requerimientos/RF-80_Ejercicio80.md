@@ -17,16 +17,22 @@ Comprobar el residuo al dividir cada número entre 2 y aumentar el contador de p
 Cantidad de números pares e impares.
 
 ## Requerimientos funcionales
-1. Recibir o preparar los datos necesarios para el ejercicio.
-2. Procesar la información según el algoritmo descrito.
-3. Presentar el resultado en la consola o guardar los registros en el archivo indicado.
-4. Informar los casos de validación o errores de lectura y escritura cuando correspondan.
+1. Solicitar la cantidad N de números a clasificar.
+2. Leer cada uno de los N números enteros.
+3. Determinar si cada número es par o impar mediante el residuo de dividir entre 2.
+4. Incrementar el contador de pares o impares según corresponda.
+5. Mostrar la cantidad total de pares y de impares.
 
 ## Requerimientos no funcionales
 - Ejecutarse en consola con Java.
-- Utilizar estructuras básicas de secuencia, decisión, ciclos, arreglos o archivos según el ejercicio.
-- Presentar mensajes claros para el usuario.
-- Mantener los nombres de archivos y formatos descritos en el código fuente.
+- Procesar cada dato una sola vez.
+- Mostrar ambos contadores al finalizar.
+
+## Requerimientos de dominio
+- Un número es par cuando su residuo al dividirlo entre 2 es cero.
+- Un número es impar cuando su residuo al dividirlo entre 2 es distinto de cero.
+- Los números negativos también pueden clasificarse como pares o impares.
+- El cero se considera par.
 
 ## Algoritmo
 1. Inicio
